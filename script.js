@@ -57,7 +57,7 @@ SVARĪGI:
 - Runā kā labs, jautrs draugs, nevis oficiāls Ziemassvētku Vecītis
 - Pēc 2-3 atbildēm OBLIGĀTI iesaki TIEŠI 2 spēles
 - VIENMĒR piedāvā 2 variantus un UZSVER, ka izvēlas VIENU
-- Dari jokainu, smieklīgu sarunu, bet palīdzi atrast īsto spēli!`;`
+- Dari jokainu, smieklīgu sarunu, bet palīdzi atrast īsto spēli!`;
 
 // Initialize conversation
 conversationHistory.push({
