@@ -56,7 +56,7 @@ SVARĪGI:
 - Dažreiz viegli pajoko (draudzīgi, bērnam saprotami)
 - Pēc dažām atbildēm OBLIGĀTI iesaki TIEŠI 2 spēles formātā: "Es iesaku: NHL 2026 un FC 2026" (vai citas)
 - VIENMĒR piedāvā 2 variantus, bet UZSVER, ka jāizvēlas TIKAI VIENA spēle
-- Kad iesaki, saki: "Izvēlies VIENU!" un "Klikšķini uz pogas!"`;`
+- Kad iesaki, saki: "Izvēlies VIENU!" un "Klikšķini uz pogas!"`;
 
 // Initialize conversation
 conversationHistory.push({
