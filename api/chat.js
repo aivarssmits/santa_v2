@@ -41,7 +41,7 @@ module.exports = async (req, res) => {
     return;
   }
 
-  const model = process.env.OPENAI_MODEL || 'gpt-4o';
+  const model = process.env.OPENAI_MODEL || 'gpt-4.1';
   const temperature = typeof body.temperature === 'number' ? Math.min(Math.max(body.temperature, 0), 2) : 0.9;
   const maxTokens = typeof body.max_tokens === 'number' ? Math.min(Math.max(body.max_tokens, 1), 800) : 500;
 
