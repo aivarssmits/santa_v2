@@ -76,7 +76,7 @@ async function bootstrapConversationFromIntro() {
     const followUp = 'Lai atrastu īsto spēli, man vajag 2 ātrus jautājumus. Vai tu parasti spēlē viens vai ar draugiem? Un kas tev patīk vairāk: sports, piedzīvojumi vai būvēšana? Es gan nevaru ielīst tavā PS5, bet varu uzminēt pēc atbildēm.';
 
     showTypingIndicator();
-    await delay(1600);
+    await delay(5000);
     removeTypingIndicator();
     addMessage('santa', followUp);
     conversationHistory.push({ role: 'assistant', content: followUp });
@@ -397,8 +397,8 @@ Atceries būt labs arī turpmāk, un gaidi dāvanu. Ho ho ho!`;
 
     // Make sure typing indicator is visible for a moment
     const elapsed = Date.now() - typingStartedAt;
-    if (elapsed < 1600) {
-        await delay(1600 - elapsed);
+    if (elapsed < 5000) {
+        await delay(5000 - elapsed);
     }
 
     // Add to conversation history
