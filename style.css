@@ -448,19 +448,18 @@ body {
 
 /* Scrollbar Styling */
 .chat-messages::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 }
 
 .chat-messages::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
+    background: transparent;
 }
 
 .chat-messages::-webkit-scrollbar-thumb {
-    background: #c41e3a;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
 .chat-messages::-webkit-scrollbar-thumb:hover {
-    background: #a01729;
+    background: rgba(0, 0, 0, 0.3);
 }
