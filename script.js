@@ -19,7 +19,11 @@ const gifts = [
     'NHL 2026',
     'FC 2026',
     'Minecraft',
-    'Spiderman 2'
+    'Spiderman 2',
+    'Ratchet & Clank',
+    'LEGO Star Wars',
+    'Kena: Bridge of Spirits',
+    'Crash Bandicoot'
 ];
 
 // System prompt for Santa
@@ -30,6 +34,10 @@ Pieejamās dāvanas ir:
 - FC 2026 (futbola spēle - perfekta futbola faniem)
 - Minecraft (radošā spēle ar bezgalīgām iespējām - būvēšanai un radošumam)
 - Spiderman 2 (piedzīvojumu spēle ar varoņiem - akcija un stāsts)
+- Ratchet & Clank (piedzīvojumu spēle ar fantastiskiem varoņiem un kosmosa ceļojumiem)
+- LEGO Star Wars (Star Wars LEGO piedzīvojumi - humors un slaveni varoņi)
+- Kena: Bridge of Spirits (skaista piedzīvojumu spēle ar maģiju un draugiem)
+- Crash Bandicoot (klasiska platformu spēle ar jautru varoni un grūtiem izaicinājumiem)
 
 Tava pieeja:
 1. Runā kā Ziemassvētku Vecītis - dabīgi, draudzīgi, bez atkārtotiem sveicieniem
@@ -86,7 +94,11 @@ function showGiftRecommendations(recommendedGifts) {
         'NHL 2026': 'https://image.api.playstation.com/vulcan/ap/rnd/202511/2815/9fa5df17cf1b0c95f3ff39d1142365537961d987c5ed03f7.png',
         'FC 2026': 'https://image.api.playstation.com/vulcan/ap/rnd/202507/2511/19ad6574090b6a71c88f0e6152ae5a668cc85882d87c51b5.png',
         'Minecraft': 'https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png',
-        'Spiderman 2': 'https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png'
+        'Spiderman 2': 'https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png',
+        'Ratchet & Clank': 'https://image.api.playstation.com/vulcan/ap/rnd/202101/2921/DwVjpbKOsFOyPdNzmSTSWuxG.png',
+        'LEGO Star Wars': 'https://image.api.playstation.com/vulcan/ap/rnd/202112/2121/qrpfY71rsvMn6beyjgStw3cH.png',
+        'Kena: Bridge of Spirits': 'https://image.api.playstation.com/vulcan/ap/rnd/202102/2307/kQzDCY5RCrSXCeeFjPGUzkGI.png',
+        'Crash Bandicoot': 'https://image.api.playstation.com/vulcan/img/rnd/202010/1602/TYk0GalUXvrSG0J6aAyfd1h6.png'
     };
     
     recommendedGifts.forEach(giftName => {
