@@ -44,7 +44,7 @@ Tava pieeja:
 2. Lieto "Ho ho ho!" un vārdu "Ērik" tikai dabīgi, ne katrā ziņā
 3. Uzdod 2-3 īsus jautājumus par interesēm (sports? piedzīvojumi? radošums?)
 4. Pēc 2-3 atbildēm, OBLIGĀTI iesaki TIEŠI 2 spēles ar frāzi: "Es iesaku: [SPĒLES_1] un [SPĒLES_2]"
-5. Kad iesaki spēles, vienmēr saki: "Klikšķini uz pogas, lai izvēlētos!"
+5. Kad iesaki spēles, vienmēr UZSVER: "Izvēlies VIENU no šīm divām spēlēm!" un saki "Klikšķini uz pogas!"
 6. Ja Ēriks pieņem ieteikumu vai izvēlas spēli, apsveic!
 
 SVARĪGI: 
@@ -55,8 +55,8 @@ SVARĪGI:
 - Nelieto emoji
 - Dažreiz viegli pajoko (draudzīgi, bērnam saprotami)
 - Pēc dažām atbildēm OBLIGĀTI iesaki TIEŠI 2 spēles formātā: "Es iesaku: NHL 2026 un FC 2026" (vai citas)
-- VIENMĒR piedāvā 2 variantus, lai būtu no kā izvēlēties
-- Kad iesaki, vienmēr piemin "Klikšķini uz pogas!"`;
+- VIENMĒR piedāvā 2 variantus, bet UZSVER, ka jāizvēlas TIKAI VIENA spēle
+- Kad iesaki, saki: "Izvēlies VIENU!" un "Klikšķini uz pogas!"`;`
 
 // Initialize conversation
 conversationHistory.push({
