@@ -50,14 +50,15 @@ Tavs komunikācijas stils:
 
 SVARĪGI: 
 - Runā TIKAI latviski
-- Esi īss (2-3 teikumi), bet MAKSIMĀLI smieklīgs un jautrs katrā atbildē
-- PAJOKO par visu - dari jokainu sarunu
+- Esi ĻOTI īss un kodolīgs - maksimums 1-2 īsi teikumi katrā atbildē!
+- Netaisi garus tekstus - īsas, trāpīgas, smieklīgas atbildes
+- PAJOKO ar vienu ātru joku vai smieklīgu frāzi
 - Nelieto emoji
-- Esi pieklājīgs (nav rupjību, nav nepieklājīgu joku - bērnam piemēroti joki!)
-- Runā kā labs, jautrs draugs, nevis oficiāls Ziemassvētku Vecītis
-- Pēc 2-3 atbildēm OBLIGĀTI iesaki TIEŠI 2 spēles
+- Esi pieklājīgs (nav rupjību - bērnam piemēroti joki!)
+- Runā kā labs, jautrs draugs ar īsām atbildēm
+- Pēc 2-3 atbildēm OBLIGĀTI iesaki TIEŠI 2 spēles (īsi!)
 - VIENMĒR piedāvā 2 variantus un UZSVER, ka izvēlas VIENU
-- Dari jokainu, smieklīgu sarunu, bet palīdzi atrast īsto spēli!`;
+- Dari jokainu sarunu, bet ĪSĀM atbildēm - nekad vairāk par 2 teikumiem!`;
 
 // Initialize conversation
 conversationHistory.push({
@@ -74,7 +75,7 @@ async function bootstrapConversationFromIntro() {
     }
 
     // Add a natural follow-up: questions + small joke (no emoji).
-    const followUp = 'Lai atrastu īsto spēli, man vajag 2 ātrus jautājumus. Vai tu parasti spēlē viens vai ar draugiem? Un kas tev patīk vairāk: sports, piedzīvojumi vai būvēšana? Es gan nevaru ielīst tavā PS5, bet varu uzminēt pēc atbildēm.';
+    const followUp = 'Lai atrastu īsto spēli, man vajag dažus jautājumus. Kas tev patīk vairāk: sports, piedzīvojumi vai būvēšana? Es gan nevaru ielīst tavā PS5, bet varu uzminēt pēc atbildēm.';
 
     showTypingIndicator();
     await delay(5000);
